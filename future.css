@@ -1,0 +1,60 @@
+header {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.goals {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.goals img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #4b0082;
+}
+
+ol {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0;
+  list-style-position: inside;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #16a085;
+}

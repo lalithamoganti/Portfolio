@@ -1,0 +1,72 @@
+/* Ensure the body takes the full height of the viewport */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main content should take all available space */
+main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+  color: #34495e;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+header {
+  background-color: #00bfff;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: auto; /* This ensures the footer stays at the bottom */
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #16a085;
+}
